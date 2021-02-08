@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login direct</title>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body
+        {
+            background-image: url(images/pexels-photo-733857.jpeg);
+            background-size:auto;
+            
+        }
+    .bg-cus
+        {
+            background-color:#008aad;
+            background-repeat: no-repeat;
+        }
+    .login-dir
+        {
+            width: 552px;
+            height: 433px;
+            background:rgb(0,0,0,0.25);
+            color:white;
+            top: 50%;
+            left: 50%;
+            position:absolute;
+            transform: translate(-50%,-50%);
+            box-sizing: border-box;
+            padding-top: 10px;
+            padding-left: 166px;
+        }
+        .login-dir a
+        {
+            width: 220px;
+            margin-top: 30px;
+        }
+        .label1
+        {
+            font-weight: 800;
+            font-size: 18px;
+            padding-right: 50%;
+        }
+    </style>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-cus">
+  <a class="navbar-brand" href="#">
+    <img src="images/hiring-1-300x300.png" width="40" height="40" class="d-inline-block align-top" alt="">
+      <b style="padding: 10px;">HUMAN RESOURCE AND PERFORMANCE MANAGEMENT SYSTEM</b>
+  </a>
+</nav>
+
+<div class="login-dir">
+    <div class="label1"><label for="Login">Login</label></div>
+<a class="btn btn-danger" href="Admin/login.php" role="button" style="padding-top: -20px;">Administrator</a>
+<a class="btn btn-danger" href="gmanager/login.php" role="button">Manager</a>
+<a class="btn btn-danger" href="Employee/login.php" role="button">Employee</a>
+<a class="btn btn-danger" href="client/login.php" role="button">Client</a>
+    </div>
+</body>
+</html>
